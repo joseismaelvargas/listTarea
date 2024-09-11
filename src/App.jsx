@@ -1,11 +1,18 @@
 
-
+import Input from "./components/input"
 function App() {
 
 
   return (
     <>
-<h1>Lista Tarea</h1>
+    <div className="container">
+      <h2 className="text-center my-3"> Lista Tarea</h2>
+      <div className="d-flex justify-center">
+        <Input></Input>
+      </div>
+         
+    </div>
+ 
     </>
   )
 }
